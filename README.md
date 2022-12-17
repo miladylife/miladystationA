@@ -5,7 +5,7 @@ aiming to release on 12/21
 ???
 question in comments of mintMiladys: should skip calling MAX_MILADYSTATIONS by just hard coding it? ie 1212, 30
 
-am running this on remix is why no import included.
+am running this on remix is why no import included. It is also why miladyHolderCheck is set to return a value matter what, since the Remix Ethereum machine is virtual / not real / unable to check milady mainnet.
 
 https://github.com/Vectorized/solady
 
