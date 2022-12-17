@@ -12,3 +12,5 @@ https://github.com/Vectorized/solady
 https://github.com/chiru-labs/ERC721A/blob/main/contracts/ERC721A.sol
 
 https://github.com/Vectorized/closedsea/blob/main/src/example/ExampleERC721A.sol
+
+notes from whale goddess: the requires at the top of the mint function do too much contract checking. might be another reason why it costs too much gas. recommends doing a merkle tree proof instead
